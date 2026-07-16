@@ -1,0 +1,579 @@
+body{
+    max-width: 100%;
+    background:  linear-gradient(135deg, #f8fafc 0%, #eef2ff 30%, #ddd6fe 65%, #c4b5fd 100%);
+    padding: 50px;
+
+}
+
+.hea{
+    width: 300px;
+    height: 30px;
+    background-color: #b0cef1;
+    border-radius: 10px;
+    margin: 50px;
+    margin-left: 300px;
+    padding: 20px;
+    padding-top: 25px;
+    padding-right: 100px;
+}
+
+input{
+    width: 500px;
+    
+
+}
+
+
+
+.heading{
+    justify-items: center;
+    display: block;
+    text-align: center;
+}
+.h1{
+    font-size: larger;
+    font-weight: lighter;
+    font-size: 70px;
+    font-family: 'inter' , sans-serif;
+
+
+}
+
+.teee{
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.start2{
+
+    background-color: rgb(56, 153, 238);
+    width: 160px;
+    height: 20px;
+    border-radius: 40px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.start{
+    text-align: center;
+    font-size: 10px;
+    display: block;
+    font-weight: lighter;
+}
+
+.wixx{
+    font-size: 20px;
+}
+
+.wix{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 700;
+}
+
+.flow{
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: "Jost", sans-serif;
+   
+   
+
+
+
+}
+
+.floww{
+    padding-top: 10px;
+}
+
+.mother{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    
+}
+
+.get{
+
+    background-color: black;
+    width: 150px;
+    height: 18px;
+    border-radius: 40px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    display: block;
+}
+
+.matcha{
+    display: flex;
+    justify-content: center;
+}
+
+.create{
+    background-color: white;
+    text-align: center;
+    
+    position: fixed;
+    bottom: 0;
+    writing-mode: vertical-lr;
+    
+    
+}
+
+.wT{
+    font-size: x-large;
+    font-weight: normal;
+    color: black;
+}
+
+.end{
+    display: block;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.ec{
+    display: flex;
+    font-weight: lighter;
+    font-size: 20px;
+    gap: 4px;
+    text-decoration: underline;
+}
+.icont {
+    color: black;
+    
+}
+
+
+
+.M-c{
+    display: flex;
+    gap: 10px;
+    /* flex-shrink: 0; */
+    overflow-x: scroll;
+    cursor: pointer;
+    justify-content: center;
+    
+}
+
+.img1{
+    background-image: url(images/wix-1011.png);
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.img2{
+    background-image: url(images/wix-102.png);
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+
+}
+
+.img3{
+    background-image: url(images/wix-1013.png);
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.img4{
+    background-image: url(images/wix-1014.png);
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.img5{
+    background-image: url(images/wix-1015.png);
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+.img6{
+    background-image: url(images/wix-1016.png);
+     width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.img7{
+    background-image: url(images/wix-1017.png);
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+
+.view {
+    border: 1px solid gold;
+    color: gold;
+    background: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    justify-content: right;
+    align-items: end;
+}
+
+.img1:hover {
+
+     background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.img1:hover.view {
+    display: block;
+}
+
+.img2:hover {
+
+     background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.img2:hover.view {
+    display: block;
+}
+
+.img3:hover {
+
+     background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.img3:hover.view {
+    display: block;
+}
+
+.img4:hover {
+
+     background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.img4:hover.view {
+    display: block;
+}
+
+.img5:hover {
+
+     background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.img5:hover.view {
+    display: block;
+}
+
+.img6:hover {
+
+     background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.img6:hover.view {
+    display: block;
+}
+
+.img7:hover {
+
+     background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.img7:hover.view {
+    display: block;
+}
+
+.imi{
+    font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  
+  color: black;
+  border-collapse: collapse;
+}
+
+.Prompt{
+font-size: 60px;
+font-weight: light;
+color: #90a9a6;
+    
+}
+
+.ex{
+font-size: 40px;
+font-weight: normal; 
+padding-right: 100%;
+
+}
+
+.Ex {
+font-size: 30px;
+font-weight: normal;
+padding-right: 100%;
+}
+
+.thirddiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 55px 100px 55px;
+}
+#SEP {
+    font-size: 43px;
+    font-family: "IBM Plex Sans", sans-serif;
+    margin-bottom: 60px;
+}
+.TExt{
+    margin-bottom: 20px;
+    
+}
+.showing {
+    font-size: 20px;
+    font-family: "IBM Plex Sans", sans-serif;
+    margin-bottom: 10px;
+}
+.hidden {
+    font-size: 14px;
+    font-family: "IBM Plex Sans", sans-serif;
+    display: none;
+    padding-bottom: 10px;
+}
+.show {
+    margin-bottom: 40px;
+}
+.hid {
+    padding-bottom: 20px;
+}
+.TExt:hover .hidden {
+    display: block;
+}
+.B2{
+    margin-top: 30px;
+}.t1 {
+    width: 370px;
+    /* height: 40px; */
+    box-sizing: border-box;
+    border: none;
+    border-radius: 30px;
+    background-color: aliceblue;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.t2 {
+    padding-bottom: 60px;
+}
+.bidiv {
+    width: 1170px;
+    height: 420px;
+    background-color: rgb(30, 66, 83);
+    border-radius: 20px;
+    justify-self: center;
+    margin-bottom: 60px;
+    padding-top: 50px;
+}
+#EP {
+    font-size: 40px;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.f1 {
+    padding-bottom: 30px;
+}
+.tinSeac {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ff6d6d;
+  border-radius: 50px;
+  padding: 1px;
+  padding-right: 3px;
+  margin: auto; 
+  width: 670px;
+  height: 70px;
+  background-color: white;
+}
+.search {
+  border: none;
+  outline: none; /* Removes the default focus ring */
+  flex-grow: 1;  /* Takes up all remaining space */
+  padding-left:60px;
+  font-size: 18px;
+  color: blue;
+}
+.b3 {
+  cursor: pointer;
+  height: 67px;
+  width: 170px;
+  border-radius: 40px;
+  color: black;
+  font-size: 23px;
+  font-family: "IBM Plex Sans", sans-serif;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-left: 40px;
+}
+#NP {
+    font-size: 12px;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+.wix {
+    writing-mode: vertical-lr;
+    bottom: 30px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    background-color: snow;
+    height: 100px;
+    width: 10px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 12px;
+}
+.Mainimdiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 15px;
+    padding: 1px 45px 70px 45px;
+    overflow-x: scroll;
+}
+
+.textdiv {
+    width:380px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: azure;
+    border: none;
+    padding: 15px 50px 10px 20px;
+    cursor: pointer;
+}
+.TH {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+    padding-bottom: 8px;
+}
+.TEP {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.imgadiv {
+    width: 450px;
+    height: 340px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.td {
+    width: 500px;
+}
+.Imd {
+    width:570px;
+}
+.tdd {
+    background-color: #f1f5f9;
+    width:100%;
+    height: 700px;
+}
+.tdd2 {
+    padding-right: 0px;
+    padding-top: 0px;
+    margin: 0;
+}
+.ll {
+    padding-top: 20px;
+}
+.Ri {
+    background-color: #abb7ef;
+    height: 700px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 52%;
+    display: flex;
+    justify-content: center;
+}
+.show2 {
+    font-size: 23px;
+}
+.Ft {
+    margin-top: 60px;
+    padding-bottom: 75px;
+}
+.TD {
+    margin-right: 160px;
+}
+.claDiv{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 55px 90px 55px;
+}
+.dia {
+    width: 300px;
+    height: 330px;
+    border-radius: 30px;
+    padding: 170px 30px 20px 30px;
+    box-sizing: border-box;
+}
+.dia1 {
+    background-color: #014051;
+    color: white;
+}
+.dia2 {
+    background-color: #ffc2fe;
+}
+.dia3 {
+    background-color: #b1c2b1;
+}
+.dia4 {
+    background-color: #863a29;
+    color: white;
+}
+.FP {
+    font-size: 19px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    justify-self: left;
+}
+
+.ELP {
+    font-size: 12px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.letterDiv {
+    background-color: #f1f5f9;
+    width:100%;
+    height: 700px;
+    padding-top: 50px;
+    
+}
+.Dii {
+    margin-right: 60px;
+}
+.coniy {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 22px;
+}
